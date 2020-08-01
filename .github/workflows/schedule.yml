@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       UPDATE_OPTION: GIST_AND_MARKDOWN
-      MARKDOWN_FILE: https://github.com/hhyouyou/hhyouyou/blob/master/README.md
+      MARKDOWN_FILE: https://raw.githubusercontent.com/hhyouyou/hhyouyou/master/README.md
       WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
       GIST_ID: bb935d4928fb4ba9fffd97309085bcf3
