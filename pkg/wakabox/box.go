@@ -108,6 +108,9 @@ func (b *Box) UpdateGist(ctx context.Context, id string, gist *github.Gist) erro
 }
 
 func (b *Box) UpdateMarkdown(ctx context.Context, title, filename string, content []byte) error {
+	
+	fmt.Println("入参 ", title, string)
+
 	md, err := ioutil.ReadFile(filename)
 	if err != nil {
 		return fmt.Errorf("wakabox.UpdateMarkdown: Error reade a file: %w", err)
