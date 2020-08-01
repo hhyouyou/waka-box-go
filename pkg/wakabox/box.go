@@ -109,7 +109,7 @@ func (b *Box) UpdateGist(ctx context.Context, id string, gist *github.Gist) erro
 
 func (b *Box) UpdateMarkdown(ctx context.Context, title, filename string, content []byte) error {
 	
-	fmt.Println("入参 ", string)
+	fmt.Println("入参 ", filename)
 
 	md, err := ioutil.ReadFile(filename)
 	if err != nil {
