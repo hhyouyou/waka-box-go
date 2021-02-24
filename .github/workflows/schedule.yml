@@ -21,7 +21,7 @@ jobs:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
       GIST_ID: bb935d4928fb4ba9fffd97309085bcf3
       GIST_BARSTYLE: SOLIDLT
-      GIST_BARLENGTH: 16
+      GIST_BARLENGTH: 13
       GIST_TIMESTYLE: LONG
 
     steps:
